@@ -1,0 +1,27 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+h1, h2, h3, h4 {
+  color: #696969; }
+
+p {
+  color: #ccc; }
+
+.box {
+  width: 150px;
+  height: 80px;
+  background-color: #323412;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$button-color: #ccc;
+$heading-color: #696969;
+$paragraph-color: #ccc;
+$list-color: #ffcc00;
+
+@import 'partial';
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+h1, h2, h3, h4{
+  color: $heading-color
+}
+
+p{
+  color: $paragraph-color;
+}
+
+@mixin common-border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.box {
+  width: 150px;
+  height: 80px;
+  background-color: #323412;
+  @include common-border-radius(10px);
+}
